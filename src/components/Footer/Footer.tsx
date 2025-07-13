@@ -12,7 +12,7 @@ export const Footer = () => {
             <p className={styles.brandTagline}>Digital Craftsmanship</p>
           </div>
           <div className={styles.links}>
-            <div className={styles.linkGroup}>
+            {/* <div className={styles.linkGroup}>
               <h4 className={styles.linkTitle}>Services</h4>
               <a href="#services" className={styles.link}>
                 Web開発
@@ -23,15 +23,15 @@ export const Footer = () => {
               <a href="#services" className={styles.link}>
                 システム開発
               </a>
-            </div>
+            </div> */}
             <div className={styles.linkGroup}>
               <h4 className={styles.linkTitle}>Company</h4>
               <a href="#about" className={styles.link}>
                 About
               </a>
-              <a href="#works" className={styles.link}>
+              {/* <a href="#works" className={styles.link}>
                 Works
-              </a>
+              </a> */}
               <a href="#contact" className={styles.link}>
                 Contact
               </a>
@@ -39,14 +39,14 @@ export const Footer = () => {
             <div className={styles.linkGroup}>
               <h4 className={styles.linkTitle}>Connect</h4>
               <a
-                href="https://github.com"
+                href="https://github.com/kaito-siba"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.link}
               >
                 GitHub
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export const Footer = () => {
                 className={styles.link}
               >
                 LinkedIn
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

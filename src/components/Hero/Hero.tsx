@@ -24,7 +24,7 @@ export const Hero = () => {
             >
               お問い合わせ
             </button>
-            <button
+            {/* <button
               type="button"
               onClick={() =>
                 document.getElementById('works')?.scrollIntoView({ behavior: 'smooth' })
@@ -32,7 +32,7 @@ export const Hero = () => {
               className={styles.ctaSecondary}
             >
               実績を見る
-            </button>
+            </button> */}
           </div>
         </div>
         <div className={styles.visual}>

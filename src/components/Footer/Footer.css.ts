@@ -47,7 +47,7 @@ export const brandTagline = style({
 
 export const links = style({
   display: 'grid',
-  gridTemplateColumns: 'repeat(3, 1fr)',
+  gridTemplateColumns: 'repeat(2, 1fr)',
   gap: '2rem',
   '@media': {
     '(max-width: 768px)': {

@@ -40,7 +40,7 @@ export const Contact = () => {
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoIcon}>📍</span>
-                <span className={styles.infoText}>Tokyo, Japan</span>
+                <span className={styles.infoText}>Kobe, Japan</span>
               </div>
               <div className={styles.infoItem}>
                 <span className={styles.infoIcon}>🕐</span>
