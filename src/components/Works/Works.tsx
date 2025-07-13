@@ -63,7 +63,7 @@ export const Works = () => {
                 <h3 className={styles.cardTitle}>{work.title}</h3>
                 <p className={styles.cardDescription}>{work.description}</p>
                 <div className={styles.cardTech}>
-                  {work.tech.map((tech, idx) => (
+                  {work.tech.map((tech) => (
                     <span key={tech} className={styles.techTag}>
                       {tech}
                     </span>

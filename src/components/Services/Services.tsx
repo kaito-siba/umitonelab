@@ -48,7 +48,7 @@ export const Services = () => {
               <h3 className={styles.cardTitle}>{service.title}</h3>
               <p className={styles.cardDescription}>{service.description}</p>
               <ul className={styles.cardFeatures}>
-                {service.features.map((feature, idx) => (
+                {service.features.map((feature) => (
                   <li key={feature} className={styles.cardFeature}>
                     {feature}
                   </li>
