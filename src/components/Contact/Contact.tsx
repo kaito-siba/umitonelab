@@ -26,7 +26,6 @@ export const Contact = () => {
     <section id="contact" className={styles.contact}>
       <div className={styles.container}>
         <h2 className={styles.title}>Contact</h2>
-        <p className={styles.subtitle}>お気軽にお問い合わせください</p>
         <div className={styles.content}>
           <div className={styles.info}>
             <h3 className={styles.infoTitle}>Let's work together</h3>

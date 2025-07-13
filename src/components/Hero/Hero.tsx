@@ -9,11 +9,6 @@ export const Hero = () => {
             <span className={styles.titleMain}>Umitone Lab</span>
             <span className={styles.titleSub}>Digital Craftsmanship</span>
           </h1>
-          <p className={styles.description}>
-            美しいデザインと確かな技術で、
-            <br />
-            あなたのビジョンを現実に
-          </p>
           <div className={styles.cta}>
             <button
               type="button"

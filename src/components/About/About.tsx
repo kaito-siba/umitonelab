@@ -18,25 +18,31 @@ export const About = () => {
           }}
         >
           <div className={styles.textContent}>
-            <h3 className={styles.subtitle}>クリエイティブと技術の融合</h3>
+            <h3 className={styles.subtitle}>経歴</h3>
             <p className={styles.description}>
-              Umitone Labは、美しいデザインと最新の技術を組み合わせて、
-              お客様のビジネスに価値をもたらすデジタルソリューションを提供しています。
-            </p>
-            <p className={styles.description}>
-              私たちは、単なるウェブサイトやアプリケーションを作るのではなく、
-              ユーザー体験を第一に考え、ビジネスの成長を支援するパートナーとして、
-              お客様と共に歩んでいきます。
+              2021年にキャリアを開始し、JavaでAndroidアプリを開発。
+              <br />
+              2022年までにReact Nativeへシフトし、iOS/Android両対応のアプリを構築。
+              <br />
+              2023年にはPHP（Yii2）によるバックエンドとReact＋Viteのフロントエンド開発を加え、フルスタックへ領域を拡大。
+              <br />
+              2024年からはAWSでのIaC環境構築やRemixなどサーバーレスフレームワークの導入に着手し、スケーラブルなサービス実装を推進している。
             </p>
             <div className={styles.skills}>
               <h4 className={styles.skillsTitle}>技術スタック</h4>
               <div className={styles.skillGrid}>
-                <div className={styles.skill}>React / Next.js</div>
                 <div className={styles.skill}>TypeScript</div>
-                <div className={styles.skill}>Node.js</div>
+                <div className={styles.skill}>PHP</div>
                 <div className={styles.skill}>Python</div>
-                <div className={styles.skill}>AWS / GCP</div>
-                <div className={styles.skill}>UI/UX Design</div>
+                <div className={styles.skill}>Java</div>
+                <div className={styles.skill}>React / Remix</div>
+                <div className={styles.skill}>React Native</div>
+                <div className={styles.skill}>Node.js</div>
+                <div className={styles.skill}>Yii2</div>
+                <div className={styles.skill}>MySQL</div>
+                <div className={styles.skill}>PostgreSQL</div>
+                <div className={styles.skill}>Docker</div>
+                <div className={styles.skill}>AWS</div>
               </div>
             </div>
           </div>
